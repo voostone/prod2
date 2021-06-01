@@ -14,4 +14,9 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
 
+    $router->resource('prod', 'ProdController');
+    $router->resource('prodin', 'ProdinhController');
+    $router->resource('prodind', 'ProdindController');
+    $router->resource('dwlist', 'DwlistController');
+
 });
