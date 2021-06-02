@@ -12,5 +12,10 @@ class Prod extends Model
     use SoftDeletes;
 
     protected $table = 'prod';
-    
+
+    public function prodind()
+    {
+        return $this->hasOne(Prodind::class, 'prodid');
+    }
+
 }

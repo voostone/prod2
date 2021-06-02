@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://F:/src/chemex8/.idea/chemex8.iml" filepath="F:/src/chemex8/.idea/chemex8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../dcat/crm/.idea/crm.iml" filepath="$PROJECT_DIR$/../../../../dcat/crm/.idea/crm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/prod.iml" filepath="$PROJECT_DIR$/.idea/prod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../dcat/tire/.idea/tire.iml" filepath="$PROJECT_DIR$/../../../../dcat/tire/.idea/tire.iml" />
     </modules>
   </component>
 </project>

@@ -12,9 +12,9 @@ class Prodinh extends Model
     use SoftDeletes;
 
     protected $table = 'prodinh';
-    
+
     public function prodinds() {
-        return $this->hasMany(Prodind::class,'inid');
+        return $this->hasMany(Prodind::class,'inid')->with('prod');
     }
-    
+
 }
