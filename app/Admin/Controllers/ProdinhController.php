@@ -27,9 +27,12 @@ class ProdinhController extends AdminController
             $grid->column('itype');
             $grid->column('jman');
 
+
+
             $grid->column('prodind.prodid')->display(function () {
                 $val = "";
                 foreach($this->prodinds as $v) {
+//                    $prodnm = Prod::class->find($v['prodid'])->get();
 
                     $val = $val . $v['prodid'] . "<br>";
 //                    $val = $val . $v['prodid'] . "<br>";
